@@ -37,9 +37,32 @@ Sigue las siguientes instrucciones:
 
 ![image-devcontainer](assets/devcontainer-image.png)
 
+4. **Instalación de librerías necesarias**
+   Para comenzar a trabajar en este proyecto, asegúrate de instalar las librerías requeridas. Esto se puede hacer fácilmente ejecutando el siguiente comando en tu terminal, en la carpeta donde se encuentra el archivo `requirements.txt`:
 
+   ```bash
+   pip install -r requirements.txt
 
-¡Todo listo! Ahora puedes comenzar a resolver los ejercicios uno por uno. Recuerda leer atentamente cada enunciado y aplicar lo aprendido. 🚀
+5. **Repaso de librerías**  
+   Antes de comenzar con el ejercicio, es crucial que realices un repaso exhaustivo sobre las librerías `pandas` y `numpy`. Asegúrate de comprender bien las siguientes áreas:
+
+   - **Funciones y Sintaxis**: Familiarízate con las funciones más comunes de cada librería. Por ejemplo:
+     - **Pandas**:
+       - `pd.read_csv()`: Para cargar datos desde un archivo CSV.
+       - `DataFrame.describe()`: Para obtener estadísticas descriptivas de un DataFrame.
+       - `DataFrame.groupby()`: Para agrupar datos y aplicar funciones agregadas.
+     - **NumPy**:
+       - `np.array()`: Para crear arreglos Numpy.
+       - `np.mean()`: Para calcular la media de un arreglo.
+       - `np.sum()`: Para sumar los elementos de un arreglo.
+
+   - **Ejemplos de Código**: Intenta escribir pequeños fragmentos de código que utilicen estas funciones. Esto te ayudará a recordar la sintaxis y a entender cómo se aplican en diferentes contextos.
+
+   - **Documentación**: Dedica tiempo a leer la documentación oficial de ambas librerías. La documentación contiene ejemplos prácticos y explicaciones detalladas que pueden ser muy útiles.
+
+   Este repaso te permitirá abordar el ejercicio de forma más cómoda y efectiva, aumentando tu confianza en el uso de estas herramientas. ¡Buena suerte!
+
+¡Todo listo! Ahora puedes comenzar a resolver los ejercicios uno por uno. Recuerda leer atentamente cada enunciado y aplicar lo aprendido.
 
 
 
